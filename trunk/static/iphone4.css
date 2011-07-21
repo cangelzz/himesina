@@ -1,0 +1,98 @@
+.nav div {
+	background-repeat: no-repeat;
+	display:inline-block;
+	width: 48px;
+	height: 48px;
+}
+
+a.btn {
+	display:inline-block;
+	background-repeat: no-repeat;
+	width:48px;
+	height:48px;
+	padding: 0px;
+}
+
+.nav div a {
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+input#boardtogo {
+	position: relative;
+	top: 2px;
+	vertical-align: top;
+}
+
+.disabled {
+	opacity: 0.25;
+}
+
+.btnBack {
+	background-image: url("../icon48/back.png");
+}
+.btnForward {
+	background-image: url("../icon48/forward.png");
+}
+.btnUp {
+	background-image: url("../icon48/up.png");
+}
+.btnDown {
+	background-image: url("../icon48/down.png");
+}
+.btnLeft {
+	background-image: url("../icon48/left.png");
+}
+.btnRight {
+	background-image: url("../icon48/right.png");
+}
+.btnBackRefer {
+	background-image: url("../icon48/backrefer.png");
+}
+
+.btnBoard {
+	background-image: url("../icon48/board.png");
+}
+
+.btnExpand {
+	background-image: url("../icon48/expandall.png");
+}
+
+.btnFirst {
+	background-image: url("../icon48/first.png");
+}
+
+.btnRefresh {
+	background-image: url("../icon48/refresh.png");
+}
+
+.btnSubject {
+	background-image: url("../icon48/th_subject.png");
+}
+
+.btnSingle {
+	background-image: url("../icon48/th_single.png");
+}
+
+.btnDigest {
+	background-image: url("../icon48/th_digest.png");
+}
+
+.btnMark {
+	background-image: url("../icon48/th_mark.png");
+}
+
+.btnGoBoard {
+	background-image: url("../icon48/goboard.png");
+}
+
+.btnGoSubject {
+	background-image: url("../icon48/gosubject.png");
+}
+.btnNew {
+	background-image: url("../icon48/new_post.png");
+}
+.btnLogin {
+	background-image: url("../icon48/login.png");
+}
