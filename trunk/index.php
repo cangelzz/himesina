@@ -7,6 +7,9 @@ $user = isset($_SESSION["user"])? $_SESSION["user"] : NULL;
 print_header();
 echo "<h1>Welcome {$user}</h1>";
 echo "<div class=\"nav\"><input id='boardtogo' type=\"text\" style='vertical-align:middle'/><a class='btnForward' onclick=\"this.href='board.php?board='+document.getElementById('boardtogo').value+'&ftype=6'\" style='vertical-align:middle'></a></div>\n";
+if (!isset($_SESSION["user"])) {
+	echo "<div style='text-align:center;background-color:#FFFFF0;padding:4px;font-size:small'><span style='vertical-align:middle'>请使用 ?favor=Board1|Board2&ftype=6 指定首页默认版面 </span></div>";
+}
 echo "<ul class='boards'>\n";
 echo "<li><a href='top10.php?h=1'>全站十大</a></li>\n";
 echo "<li onclick='javascript:$(this).next().toggle()'><a>分区十大</a></li>\n";
