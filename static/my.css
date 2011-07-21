@@ -1,0 +1,275 @@
+﻿body {
+    font-family: helvetica, Arial, "宋体";
+	margin: 0;
+	padding: 0;
+	background: #ebebeb;
+	-webkit-text-size-adjust:none;		  /* Turn off font resizing */
+    width: 100%;
+}
+
+body.portrait{min-height:480px}
+body.landscape{min-height:320px}
+
+html {margin:0px}
+img {
+	border-width: 0px;
+}
+
+.posts li.even {
+	background-color: #FFFFF4;
+}
+
+div {margin:0px;padding:0px;}
+
+.clear { clear: left }
+
+h1 {
+    font-family: Verdana, "黑体";
+    font-size: 18px;
+    color: white;
+	text-align: center;
+	margin: 0;
+	padding: 3;
+	background: #32598b;
+    min-height:25px;
+    text-shadow: gray 0px 1px 1px;    
+}
+
+a.login {
+    display:inline-block;
+    float:right;
+    font-size: 12px;
+    font-weight: bold;
+    margin:0 2;
+    padding:5 6;
+    text-decoration:none;
+    color:white;
+    min-width: 30px;
+    background: #3366CC;
+    -webkit-border-radius:6px; 
+}
+#loginbar {
+	text-align: right;
+	font-size: 14px;
+	padding: 3px 6px;
+	color: #0064AF;
+}
+#loginform {
+	display: none;
+}
+
+#footer {
+	background: #32598b;
+    height:3px;
+}
+
+#copyright {
+    display: block;
+    text-align:center;
+    padding:4px 5px 5px;
+}
+
+#copyright a {
+    font-size: 12px;
+    margin:0 2;
+    padding:2 4;
+    text-decoration:none;
+    color:black;
+    width: 30px;
+}
+
+.author {
+    color: #0064AF;
+}
+
+.authorlz {
+    color: crimson;
+}
+
+div.floatright
+{
+    float: right;
+}
+
+.boardinth {
+    color: darkcyan;
+}
+
+.threads {
+    font-size: 14px;
+}
+
+.boards {
+    font-size: 16px;
+	-webkit-columns: 2;
+	text-align:center;
+}
+
+.posts {
+    font-size:14px;
+}
+
+div.nav{
+    background: #5B5951;
+    padding-top:3px;
+}
+
+div.nav a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+
+.error{
+    background: firebrick;
+    min-height:25px;
+}
+
+.hidecomments {
+    color: gray;
+    display:none;
+}
+
+.comments {
+	color: gray;
+}
+.preview {
+	color: #3C3C3C;
+	display: none;
+	font-size: 13px;
+}
+
+
+form {margin:0px;}
+
+form textarea {
+    width: 100%;
+    height: 160px;
+    font-size:14px;
+}
+
+#smartinput { width:100%; }
+
+form input[type=checkbox] {
+    margin-left: 29px;
+}
+
+form input[type=submit] {
+    width: 100px;
+    height: 25px;
+    font-size:14px;
+    margin-top:2px;
+}
+
+ul {	   
+	padding: 0;	   
+	margin-top:0;
+    margin-bottom:0;
+	font-size:14px;
+	font-family: Helvetica;
+	background-color: white;       /* Each list has a white background fill */	
+	border-width: 1px;		       /* Draw a rectangle around each list */
+    border-style:solid ;
+	border-color:#ddd;
+}
+
+form ul {
+    margin: 10px 10px;
+    padding: 2px 0px;
+    -webkit-border-radius:8px; 
+}
+
+.logo {
+	display: block;
+	margin: 10px auto;
+}
+
+.auto300 {
+    -webkit-transform: scale(0.625);
+    -webkit-transform-origin: top left;
+}
+
+li {	
+	list-style-type: none;	
+	
+	border-bottom-width:1px;	/* Create lines between cells. Each line is placed above each item */
+	border-bottom-style:solid;
+	border-bottom-color:#ddd;
+	padding-left:2px;
+	padding-right:2px;
+	padding-top:4px;
+	padding-bottom:4px;
+    word-wrap: break-word; /* css3 */
+
+}
+
+li.selected {
+	background-color: #FFFFF0;
+	border: 1px dashed gray;
+	border-bottom-width: 0px;
+}
+
+li.selected .preview {
+	display:block;
+}
+
+li.group {
+    position: relative;
+    top:-1px;
+    margin-bottom: -2px;
+    padding: 2px 4px;
+    background: url(listGroup.png) repeat-x;
+    font-size:16px;
+    font-weight:bold;
+    text-shadow: rgba(0,0,0,0.4) 0 1px 0;
+    color: #FFFFFF;
+}
+
+li:last-child  {
+	border-top:0;    /* Remove border above the first item of the list */
+}
+
+.mainsub
+{
+    border-left: 3px solid #3366FF;
+}
+
+.att img {
+	position:relative;
+	top:3px;
+}
+
+li a {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	color:black;
+}
+
+.top10 li {
+	padding-left: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	display:block;
+}
+
+.urlgo {
+    color: blue;
+}
+
+.threads li a:visited {
+    color: coral;
+}
+
+li.home a {
+	padding-left: 8px;
+}
+
+li a.normal {
+    display: inline;
+}
+
+.threads li.unread {
+	border-left: 2px solid gray;
+}

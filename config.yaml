@@ -1,0 +1,12 @@
+﻿appname: himecc
+version: 1
+
+handle:
+
+#目录默认页面
+- directoryindex: index.php
+
+#自定义错误页面
+- errordoc: 404 /static/404.html
+
+#URL重写

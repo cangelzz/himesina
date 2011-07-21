@@ -1,0 +1,590 @@
+﻿body {
+    font-family: helvetica, Arial, "宋体";
+	margin: 0;
+	padding: 0;
+	background: #ebebeb;
+	-webkit-text-size-adjust:none;		  /* Turn off font resizing */
+    width: 100%;
+}
+
+body.portrait{min-height:480px}
+body.landscape{min-height:320px}
+
+html {margin:0px}
+
+div {margin:0px;padding:0px;}
+
+h1 {
+    font-family: Verdana;
+    font-size: 18px;
+    color: white;
+	text-align: center;
+	margin: 0;
+	padding: 3;
+	background: #0064af;
+    min-height:25px;
+}
+
+a.login {
+    display:inline-block;
+    float:right;
+    font-size: 12px;
+    margin:0 2;
+    padding:2 4;
+    text-decoration:none;
+    color:white;
+    min-width: 30px;
+    background: #3366CC;
+}
+
+h1 input {
+    height: 24px;
+    font-size:16px;
+}
+
+#footer {
+	background: #32598b;
+    height:3px;
+}
+
+#copyright {
+    display: block;
+    text-align:center;
+    padding:4px 5px 5px;
+}
+
+#copyright a {
+    font-size: 12px;
+    margin:0 2;
+    padding:2 4;
+    text-decoration:none;
+    color:black;
+    width: 30px;
+}
+
+h1 a.login:first-child {
+    margin-left:0;
+}
+
+.author {
+    color: #6699FF;
+}
+
+div.floatright
+{
+    float: right;
+}
+
+.boardinth {
+    color: darkcyan;
+}
+
+.threads {
+    font-size: 14px;
+}
+
+.boards {
+    font-size: 16px;
+}
+
+.posts {
+    font-size:14px;
+}
+
+.nav{
+    background: #00694b;
+    text-align: center;
+    min-height:25px;
+}
+
+.error{
+    background: firebrick;
+    min-height:25px;
+}
+
+.navjump{
+    background: #00694b;
+    text-align: left;
+}
+
+
+form {margin:0px;}
+
+form textarea {
+    width: 100%;
+    height: 160px;
+    font-size:14px;
+}
+
+#smartinput { width:100%; }
+
+form input[type=checkbox] {
+    margin-left: 29px;
+}
+
+form input[type=submit] {
+    width: 100px;
+    height: 25px;
+    font-size:14px;
+    margin-top:2px;
+}
+
+h2 {
+	margin:0;
+	padding-top:15px;		  
+	padding-right:10px;		 
+	padding-bottom:15px;	
+	padding-left:10px;
+	
+	font-size:17px;
+	font-family: Helvetica;
+	font-weight:bold;
+	color: #383e40;
+}
+
+ul {	   
+	padding: 0;	   
+	margin-top:0;
+    margin-bottom:0;
+	font-size:14px;
+	font-family: Helvetica;
+	background-color: white;       /* Each list has a white background fill */	
+	border-width: 1px;		       /* Draw a rectangle around each list */
+    border-style:solid ;
+	border-color:#ddd;
+}
+
+form ul {
+    margin: 10px 10px;
+    padding: 2px 0px;
+    -webkit-border-radius:8px; 
+}
+
+.logo {
+	display: block;
+	margin: 10px auto;
+}
+
+.auto300 {
+    -webkit-transform: scale(0.625);
+    -webkit-transform-origin: top left;
+}
+
+li {	
+	list-style-type: none;	
+	
+	border-top-width:1px;	/* Create lines between cells. Each line is placed above each item */
+	border-top-style:solid;
+	border-top-color:#ddd;
+    padding: 4px 6px;
+    word-wrap: break-word; /* css3 */
+
+}
+
+li.group {
+    position: relative;
+    top:-1px;
+    margin-bottom: -2px;
+    padding: 2px 4px;
+    background: url(listGroup.png) repeat-x;
+    font-size:16px;
+    font-weight:bold;
+    text-shadow: rgba(0,0,0,0.4) 0 1px 0;
+    color: #FFFFFF;
+}
+
+li .metadados {
+	font-size: 11px;
+	color: #666;
+	font-weight: normal;
+}
+
+li:first-child  {
+	border-top:0;    /* Remove border above the first item of the list */
+}
+
+.mainsub
+{
+    border-left: 3px solid #3366FF;
+}
+
+.att
+{
+    border-right: 3px solid #FF6666;
+}
+
+
+li a {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	color:black;
+}
+
+.urlgo {
+    color: blue;
+}
+
+.threads li a:visited {
+    color: coral;
+}
+
+li.home a {
+	padding-left: 8px;
+}
+
+li a.normal {
+    display: inline;
+}
+
+.button	
+{	
+
+   /* Set a button to be a block so its height and width can be adjusted */
+	display: block;		    
+	
+	height: 30px;
+	
+	/* Use the highest button height to ensure that text will vertically align on all buttons */
+	line-height: 28px;	 
+	
+	/* A button will expand to the width of its parent cell if no width is specified */
+	width: 50px;			
+	
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3c491a;
+	
+	text-decoration: none;
+	text-align: center;
+	
+	padding: 0;
+	margin: 0;
+
+}
+
+
+.btnCenter0
+{	
+	display: inline-block;		    
+	height: 25px;
+	line-height: 25px;	 
+
+    font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3c491a;
+	
+	text-decoration: none;
+	text-align: center;
+	
+    padding: 0;
+    padding-right: 5px;
+	margin: 0;
+
+    text-shadow: #f5f4d7 0px 1px 1px;
+	border-width: 0px 5px 0px 12px;   
+	/* -webkit-border-image divides the leftButton image into 2 corners and middle part.	*/
+	/* The left corner is 12 pixels wide. The right corner is 5 pixels wide and the middle part is 1 pixel. */
+	-webkit-border-image: url(btn_center.png) 0 5 0 12;		
+}
+
+.btnCenter2
+{
+    position:relative;
+    left: -18px;
+}
+
+.btnCenter3
+{
+    position:relative;
+    left: 18px;
+}
+
+.left36 {
+    position:relative;
+    left: -36px;
+}
+
+.left18 {
+    position:relative;
+    left: -18px;
+}
+
+.btnCenterLeft
+{	
+
+	float: left;
+   /* Set a button to be a block so its height and width can be adjusted */
+	display: inline-block;		    
+	
+	height: 25px;
+	line-height: 25px;
+	
+	/* A button will expand to the width of its parent cell if no width is specified */
+/*	width: 70px;			*/
+	
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3c491a;
+	
+	text-decoration: none;
+	text-align: center;
+	
+		
+	padding: 0;
+    padding-right: 5px;
+	margin: 0;
+
+    text-shadow: #f5f4d7 0px 1px 1px;
+	border-width: 0px 5px 0px 12px;   
+	
+	
+	/* -webkit-border-image divides the leftButton image into 2 corners and middle part.	*/
+	/* The left corner is 12 pixels wide. The right corner is 5 pixels wide and the middle part is 1 pixel. */
+	-webkit-border-image: url(btn_center.png) 0 5 0 12;		
+
+}
+
+/*  Creates a button using a 18x30 image */
+.btnLeft0
+{
+    float: left;
+    text-decoration: none;
+	text-align: center;
+
+    display: inline-block;
+	
+	height: 25px;
+	line-height: 25px;
+    min-width: 20px;
+	
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3c491a;
+	
+	padding: 0;
+	margin: 0;
+
+
+	color: #3c491a;
+	
+	/* Put a 1 pixel blur black shadow below the button's text */
+	text-shadow: #f5f4d7 0px 1px 1px;
+	border-width: 0px 5px 0px 12px;   
+	
+	
+	/* -webkit-border-image divides the leftButton image into 2 corners and middle part.	*/
+	/* The left corner is 12 pixels wide. The right corner is 5 pixels wide and the middle part is 1 pixel. */
+	-webkit-border-image: url(btn_left.png) 0 5 0 12;		
+}
+.btnGo
+{
+    margin-left: 4px;
+    text-decoration: none;
+	text-align: center;
+    display: inline-block;
+	
+	height: 25px;
+	line-height: 25px;
+    min-width: 40px;
+
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3c491a;
+	
+	padding: 0;
+
+	border-width: 0px 12px 0px 5px;
+
+	text-shadow: #f5f4d7 0px 1px 1px;
+	letter-spacing: -1px;
+	
+	/* -webkit-border-image divides the rightButton image into three parts. */
+	/* The right and left corners of the image are respectively 12 pixels and 5 pixels wide. */
+	/* This leaves 1 pixel for the midlle part of the image.		*/
+	-webkit-border-image: url(btn_right.png) 0 12 0 5;
+
+}
+
+.btnRight0
+{
+    float: right;
+  	text-decoration: none;
+	text-align: center;
+    display: inline-block;
+	
+	height: 25px;
+	line-height: 25px;
+    min-width: 20px;
+
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3c491a;
+	
+	padding: 0;
+	margin: 0;
+
+	border-width: 0px 12px 0px 5px;
+
+	text-shadow: #f5f4d7 0px 1px 1px;
+	letter-spacing: -1px;
+	
+	/* -webkit-border-image divides the rightButton image into three parts. */
+	/* The right and left corners of the image are respectively 12 pixels and 5 pixels wide. */
+	/* This leaves 1 pixel for the midlle part of the image.		*/
+	-webkit-border-image: url(btn_right.png) 0 12 0 5;
+}
+
+.btnCenterRight	 
+{
+    float: right;
+  	text-decoration: none;
+    display: inline-block;
+	
+	height: 25px;
+	line-height: 25px;			
+    min-width: 20px;
+
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color: #3c491a;
+	
+	padding: 0;
+	margin: 0;
+
+    border-width: 0px 12px 0px 5px;
+	text-shadow: #f5f4d7 0px 1px 1px;
+	letter-spacing: -1px;
+	
+	/* -webkit-border-image divides the rightButton image into three parts. */
+	/* The right and left corners of the image are respectively 12 pixels and 5 pixels wide. */
+	/* This leaves 1 pixel for the midlle part of the image.		*/
+	-webkit-border-image: url(btn_center.png) 0 12 0 5;
+}
+
+.hidediv
+{
+    padding-left: 10px;
+    text-align: center;
+    display: none;
+    word-wrap: break-word; /* css3 */
+}
+
+.webkit{overflow:visible}
+
+#navboard {
+    background: #444444;
+    height:19px;
+    font-size:17px;
+    overflow:hidden;
+}
+
+#navcon {
+    display:inline-block;
+    overflow:hidden;
+    height:19px;
+    line-height:19px;
+}
+
+.hBoard {
+    text-decoration:none;
+    letter-spacing: -1px;
+    padding:0 2;
+}
+
+#navboard a {text-decoration:none;
+        color: white;
+}
+
+.navleft {
+    float:left;
+    min-width:30px;
+    display:inline-block;
+    text-align:center;
+    text-decoration:none;
+    background: #cd003c;
+}
+
+.navleft a {
+    display:block;
+}
+.navright{
+    float:right;
+    min-width:30px;
+    display:inline-block;
+    text-align:center;
+    text-decoration:none;
+    background: #cd003c;
+}
+.navright a {
+    display:block;
+}
+
+#toolbox {
+    position:absolute;
+    z-index: 50;
+    right: 0px;
+    top: 19px;
+    background: #444444;
+    display:none;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-bottom:8px;
+}
+#main {
+    width:100%;
+    position:absolute;
+}
+
+#ipadcon {
+    padding-top:8px;
+    text-align: center;
+}
+
+#ipadcon a {
+    float: none !important;
+
+}
+
+#divThreads {
+    float:left;
+    width:40%;
+    height:100%;
+    overflow:auto;
+}
+#divPosts {
+    height:100%;
+    border-left:solid 1px #c2cff1;
+    border-right:solid 1px #c2cff1;
+    overflow:auto;
+}
+
+#progress {
+    font-family: helvetica;
+    position:absolute;
+    top:0;
+    z-index:100;
+    color: black;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    margin: -100px 0px 0px -300px;
+}
+
+#progress > * {
+    background: #C0C0C0 url(progress.gif) center 75% no-repeat;
+    -webkit-border-radius:25px;
+    opacity:.8;
+    position: absolute;
+    padding-top: 100px;
+    width: 600px;
+    height: 100px;
+}

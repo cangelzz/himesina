@@ -1,0 +1,17 @@
+﻿User-agent: *
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Baiduspider+
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: YoudaoBot
+Disallow: /
